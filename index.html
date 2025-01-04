@@ -8,8 +8,43 @@
 <body>
     <h1>Welcome to Snack restaurant</h1>
     <h3>This is your information</h3>
-    <div id="hero">
+    <div>
+        <form id = "checkForm">
 
+            <input type="text" placeholder="userName" id="usernameInput" required>
+            <br><br>
+
+            <input type="text" placeholder="userAge"  id="userageInput" required>
+            <br><br>
+
+            <input type="text" placeholder="userGender" id="usergenderInput" required>
+            <br><br>
+
+            <h3>Choose your order</h3>
+            <label for="shawerma" >shawerma</label>
+            <input id = "shawerma" type="checkbox">
+            <br><br>
+
+            <label for="Zinger">Zinger</label >
+            <input id = "Zinger" type="checkbox">
+            <br><br>
+
+            <label for="Burger">Burger</label>
+            <input id = "Burger" type="checkbox">
+            <br><br>
+
+            <h3>Select your order type</h3>
+            <label for="Sandwish">Sandwish</label>
+            <input id = "Sandwish" type="radio">
+            <br><br>
+
+            <label for="Combo">Combo</label>
+            <input id = "Combo" type="radio">
+            <br><br>
+
+            <button id="button" type="button">Submit</button>
+        </form>
+        <p id="output"></p>
     </div>
     <script src="app.js"> </script>
 </body>
